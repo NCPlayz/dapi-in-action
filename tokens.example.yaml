@@ -1,2 +1,17 @@
 discord_token:
   fill_in_token # Real Token!!
+reddit: # Give the basic information for the reddit session to login. Make sure these are in order as is!
+  subreddit:
+    learnpython # Just the name of the subreddit not "r/learnpython".
+  client_id:
+    fill_in_client_id
+  client_secret:
+    fill_in_client_secret
+  username:
+    fill_in_username
+  password:
+    fill_in_password
+starboard_whitelist:
+  - 437410517242609684
+  - # Discord API starboard channel ID
+    # This supports multiple channel IDs.
